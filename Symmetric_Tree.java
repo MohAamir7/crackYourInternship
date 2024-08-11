@@ -1,18 +1,7 @@
 package arsh_dsa_sheet;
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-    TreeNode() {}
-    TreeNode(int val) { this.val = val; }
-   TreeNode(int val, TreeNode left, TreeNode right) {
-        this.val = val;
-        this.left = left;
-        this.right = right;
-    }
-}
 
-  
+import arsh_dsa_sheet.Binary_Tree_Maximum_Path_Sum.TreeNode;
+
 public class Symmetric_Tree {
 	public boolean isSymmetric(TreeNode root) {
 		return symmetric(root.left,root.right);
